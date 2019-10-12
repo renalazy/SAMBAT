@@ -26,6 +26,9 @@ public class LandingActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.btnLogin:
                 Intent moveToLogin = new Intent(LandingActivity.this, LoginActivity.class);
                 startActivity(moveToLogin);
+            case R.id.btnRegister:
+                Intent moveToRegister = new Intent(LandingActivity.this, RegisterActivity.class);
+                startActivity(moveToRegister);
         }
     }
 }
