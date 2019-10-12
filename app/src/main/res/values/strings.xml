@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SAMBAT</string>
+    <string name="appname">SAMBAT</string>
+    <string name="pemkot">Kota Malang</string>
+    <string name="text_landing">Selamat Datang di Aplikasi E-aspirasi\n
+        Kota Malang\n\n
+        Media ini disediakan oleh\n
+        Pemerintah Daerah Kota Malang\n
+        untuk menampung laporan dan aspirasi\n
+        dari masyarakat kepada\n
+        Instansi Pemerintahan</string>
+    <string name="easpirasi">E-aspirasi</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="input_username">input username</string>
+    <string name="input_password">input password</string>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".LoginActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/complain"
+            android:alpha=".100"
+            android:layout_gravity="end"
+            >
+
+        </ImageView>
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_pemkot"
+        android:layout_above="@id/textLogin"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rock"
+        android:gravity="center"
+        android:paddingTop="25dp"
+        android:text="@string/login"
+        android:textAllCaps="true"
+        android:textColor="@color/colorFirst"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true">
+        </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rectangleView"
+        android:background="@drawable/rectangle"
+        android:layout_below="@id/textLogin"
+        android:alpha=".50"
+        android:layout_marginBottom="30dp">
+    </View>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/textLogin"
+        android:hint="@string/input_username"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:background="@null">
+    </EditText>
+
+    <View
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rectangleView2"
+        android:background="@drawable/rectangle"
+        android:layout_below="@id/etUsername"
+        android:alpha=".50"
+        android:layout_marginBottom="30dp">
+    </View>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@id/etUsername"
+        android:hint="@string/input_password"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:background="@null">
+    </EditText>
+
+    <Button
+        android:layout_marginStart="25dp"
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@id/etPassword"
+        android:background="@color/colorFirst"
+        android:layout_marginTop="30dp">
+    </Button>
+
+
+
+
+
+
+</RelativeLayout>
